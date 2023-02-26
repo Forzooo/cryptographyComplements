@@ -22,13 +22,13 @@ def DiscreteLogarithm(base, congruence, modulo):
     if not isNumber(base, congruence, modulo):
         return None
     
-    BASE, congruence, modulo = int(base), int(congruence), int(modulo)
+    BASE, CONGRUENCE, MODULO = int(base), int(congruence), int(modulo)
     power = 0
 
     while True:
         number = base**power
-        if number % modulo == congruence % modulo:
-            print(f"log{BASE} {power} \u2261 {congruence} (modulo {modulo})")
-            return BASE, power, congruence, modulo
+        if number % MODULO == CONGRUENCE % MODULO:
+            print(f"log{BASE} {power} \u2261 {CONGRUENCE} (modulo {MODULO})")
+            return BASE, power, CONGRUENCE, MODULO
         
         power += 1
