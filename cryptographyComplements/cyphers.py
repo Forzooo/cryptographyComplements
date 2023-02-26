@@ -21,7 +21,27 @@ def randomCypher():
         cypher[i] = element_sorted
 
     writeCypher(cypher)
-    return(cypher)
+    return cypher
+
+
+def CaesarCypher():
+    "This functions generate the Caesar Cypher with a random sequence, or if enabled by the user in the script, the original one."
+    import string, random
+    elements = string.ascii_letters + string.digits + string.punctuation + "àèéìòù" + " "
+    cypher = {elements[i]: None for i in range(len(elements))}
+
+    # sequence = 3 # use this for the original Caesar Cypher
+    sequence = random.randint(0, len(cypher)) # use this for a random Caesar Cypher
+
+    modulo = int(len(cypher))
+    for i in cypher.keys():
+        index = sequence % modulo
+        cypher[i] = elements[index]
+        sequence += 1
+
+    writeCypher(cypher)
+    return cypher
+    
 
 def writeCypher(cypher):
     cypher = str(cypher)
