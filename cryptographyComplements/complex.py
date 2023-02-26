@@ -5,7 +5,7 @@ def EulerTotientFunction(number):
     if not isNumber(number):
         return None
 
-    result = number
+    result = int(number)
     p = 2
     while p * p <= number:
         if number % p == 0:
