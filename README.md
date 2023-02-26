@@ -9,6 +9,7 @@
 
 ## Cyphers:
 * random
+* Caesar
 
 ## Compile it:
 python setup.py sdist
