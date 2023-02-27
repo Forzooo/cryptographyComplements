@@ -33,3 +33,16 @@ def isNumber(*args):
         return False
 
     return True
+
+def startChronometer():
+    "Start a chronometer. \nNote: The chronometer needs to be achieved into a variable."
+    import time
+    return time.time()
+
+def stopChronometer(startTimer):
+    "Stop a given chronometer, and prints out how much it took."
+    import time
+    elapsed = time.time() - startTimer
+    hours, rem = divmod(elapsed, 3600)
+    minutes, seconds = divmod(rem, 60)
+    print(f"Execution time: {int(hours):0>2}:{int(minutes):0>2}:{seconds:05.3f}")

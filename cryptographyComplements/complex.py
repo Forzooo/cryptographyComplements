@@ -28,7 +28,7 @@ def DiscreteLogarithm(base, congruence, modulo):
     while True:
         number = base**power
         if number % MODULO == CONGRUENCE % MODULO:
-            print(f"log{BASE} {power} \u2261 {CONGRUENCE} (modulo {MODULO})")
+            print(f"log{BASE} {power} \u2261 {CONGRUENCE} (mod {MODULO})")
             return BASE, power, CONGRUENCE, MODULO
         
         power += 1
