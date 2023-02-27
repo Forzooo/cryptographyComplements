@@ -6,6 +6,7 @@
 * isOdd
 * isEven
 * isNum
+* chronometer
 
 ## Cyphers:
 * random
@@ -14,3 +15,4 @@
 ## Compile it:
 python setup.py sdist
 
+## [TO v0.1.0](https://github.com/Forzooo/cryptographyComplements/issues/1)
