@@ -42,9 +42,9 @@ def CaesarCypher():
     writeCypher(cypher)
     return cypher
     
-
 def writeCypher(cypher):
-    cypher = str(cypher)
     "This function writes a cypher, from a one executed, into a text file."
+    
+    import json
     with open("cypher.txt","w") as file:
-        file.write(cypher)
+        json.dump(cypher, file)
