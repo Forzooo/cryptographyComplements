@@ -17,8 +17,8 @@ def EulerTotientFunction(number):
         result -= result // number
     return result
 
-def DiscreteLogarithm(base, congruence, modulo):
-    "Calculate, from given base, congreunce and modulo, the discrete logarithm. \nWarning: The function won't stop even if there isn't a number that can resolve the discrete logarithm."
+def baseDiscreteLogarithm(base, congruence, modulo):
+    "Calculate, from given base, congruence and modulo, the discrete logarithm. \nWarning: The function won't stop even if there isn't a number that can resolve the discrete logarithm."
     if not isNumber(base, congruence, modulo):
         return None
     
@@ -29,6 +29,8 @@ def DiscreteLogarithm(base, congruence, modulo):
         number = base**power
         if number % MODULO == CONGRUENCE % MODULO:
             print(f"log{BASE} {power} \u2261 {CONGRUENCE} (mod {MODULO})")
-            return BASE, power, CONGRUENCE, MODULO
+            logarithm = [BASE, power, CONGRUENCE, MODULO]
+            # return BASE, power, CONGRUENCE, MODULO
+            return logarithm
         
         power += 1
