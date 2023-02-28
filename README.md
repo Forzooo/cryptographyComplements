@@ -1,6 +1,6 @@
 ## Functions available:
 * Euler Totient Function
-* Discrete Logarithm (Incomplete)
+* Base Discrete Logarithm
 
 ## Utilities:
 * isOdd
@@ -15,4 +15,4 @@
 ## Compile it:
 python setup.py sdist
 
-## [TO v0.1.0](https://github.com/Forzooo/cryptographyComplements/issues/1)
+## [TO v0.2](https://github.com/Forzooo/cryptographyComplements/issues/2)
