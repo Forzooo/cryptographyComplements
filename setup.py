@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='cryptographyComplements',
-    version='0.1.1',
+    version='0.1.2',
     description='A Python library, in development, that allows the user to use cryptography, and related, functions.',
     author='Forzo',
     packages=find_packages(),
