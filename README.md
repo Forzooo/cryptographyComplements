@@ -1,5 +1,7 @@
 ## Functions available:
 * Euler Totient Function
+* Euclidean Algorithm
+* Extended Euclidean Algorithm
 * Base Discrete Logarithm
 
 ## Utilities:
