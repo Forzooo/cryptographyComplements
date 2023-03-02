@@ -17,6 +17,19 @@ def EulerTotientFunction(number):
         result -= result // number
     return result
 
+def EuclideanAlgorithm(a, b):
+    "Given two numbers, a and b, calculate their MCD."
+    if not isNumber(a, b):
+        return None
+
+    while True:
+        r = a % b
+        if r != 0:
+            a, b, remainder = b, r, r # remainder = r needs to be kept, because if r = 0, then it will be stored back.
+        else:
+            return remainder
+
+
 def baseDiscreteLogarithm(base, congruence, modulo):
     "Calculate, from given base, congruence and modulo, the discrete logarithm. \nWarning: The function won't stop even if there isn't a number that can resolve the discrete logarithm."
     if not isNumber(base, congruence, modulo):
