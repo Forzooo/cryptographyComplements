@@ -6,3 +6,4 @@ Welcome to cryptographyComplements's documentation!
 
    introduction
    setup
+   tools
