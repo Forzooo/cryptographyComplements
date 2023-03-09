@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/docs/_build": true,
+        "**/docs/_static": true,
+        "**/docs/_templates": true,
+        "**/docs/make.bat": true,
+        "**/docs/Makefile": true
+    }
+}
