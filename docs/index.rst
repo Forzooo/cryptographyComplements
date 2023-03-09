@@ -4,6 +4,6 @@ Welcome to cryptographyComplements's documentation!
 .. toctree::
    :maxdepth: 2
 
-   introduction
-   setup
+   general/introduction
+   general/setup
    tools/tools
