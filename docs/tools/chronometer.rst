@@ -1,4 +1,4 @@
-chronometer.rst
+chronometer
 ===============
 
 Page not developed yet.
