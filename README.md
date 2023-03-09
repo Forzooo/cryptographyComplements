@@ -1,1 +1,1 @@
-[Documentation](https://cryptographycomplements.readthedocs.io/en/latest/) - **In development**
+[![Documentation Status](https://readthedocs.org/projects/cryptographycomplements/badge/?version=latest)](https://cryptographycomplements.readthedocs.io/?badge=latest)
