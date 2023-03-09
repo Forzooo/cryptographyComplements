@@ -11,7 +11,7 @@ So if you have any suggestions create an issue here on `cryptographyComplements 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+..    :caption: Contents:
 
 
 
