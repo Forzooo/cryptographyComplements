@@ -1,7 +1,7 @@
 Functions
 =========
 
-Page not developed yet.
+Here you can find all the tools available.
 
 .. toctree::
    :maxdepth: 2

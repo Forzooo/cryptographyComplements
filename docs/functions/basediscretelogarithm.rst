@@ -1,7 +1,7 @@
 Base Discrete Logarithm
 =======================
 
-This function calculates the discrete logarithm given a base, congruence, and modulo.
+This function calculates the discrete logarithm from a given base, congruence, and modulo.
 
 .. warning::
     The function won't stop even if there isn't a number that can resolve the discrete logarithm.
