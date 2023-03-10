@@ -1,10 +1,10 @@
 Credits
 =======
 
-Library Developers:
+Library Developers
 -------------------
 - Forzo
 
-Documentation Writers:
+Documentation Writers
 ----------------------
 - Forzo
