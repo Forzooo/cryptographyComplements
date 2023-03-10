@@ -1,8 +1,7 @@
 Cyphers
 =======
 
-Page not developed yet.
-
+In this section you can find all the cyphers available.
 
 .. toctree::
    :maxdepth: 2
