@@ -131,3 +131,4 @@ cypher.txt
 setup.py
 MANIFEST.in
 upload.py
+.vscode/
