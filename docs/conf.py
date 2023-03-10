@@ -1,5 +1,4 @@
 # Configuration file for the Sphinx documentation builder.
-import furo
 
 project = 'cryptographyComplements'
 copyright = '2023, Forzo'
@@ -15,3 +14,8 @@ html_theme = 'furo'
 html_static_path = ['_static']
 
 master_doc = 'index'
+
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath('_themes/furo'))
