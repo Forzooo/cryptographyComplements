@@ -5,6 +5,7 @@ Planned Updates
 
 Here you can find all the updates planned to do.
 
+- ☑ Release of the library on PyPi!
 
 Library, release of version 0.2
 --------------------------------
