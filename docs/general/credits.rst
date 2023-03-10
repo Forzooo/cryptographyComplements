@@ -1,4 +1,10 @@
 Credits
 =======
 
-Page not developed yet.
+Library Developers:
+-------------------
+- Forzo
+
+Documentation Writers:
+----------------------
+- Forzo
