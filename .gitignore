@@ -128,3 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 cypher.txt
+setup.py
+MANIFEST.in
