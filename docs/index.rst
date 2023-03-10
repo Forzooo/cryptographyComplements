@@ -1,6 +1,9 @@
 Cryptography Complements Documentation
 ======================================
 
+The library is going to be published on PyPi soon!
+--------------------------------------------------
+
 .. toctree::
    :maxdepth: 2
 
