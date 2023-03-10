@@ -4,6 +4,7 @@
         "**/docs/_static": true,
         "**/docs/_templates": true,
         "**/docs/make.bat": true,
-        "**/docs/Makefile": true
+        "**/docs/Makefile": true,
+        "**/cryptographyComplements.egg-info/": true
     }
 }
