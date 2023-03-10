@@ -6,10 +6,19 @@ The version of the library specifies to what version is updated the documentatio
 Also, it can happen that more than one release of the library can have the same version.
 
 
+Documentation - Version 0.1.3 (10/03/2023)
+------------------------------------------
+* Changed the theme of documentation from ``Read The Docs`` to ``furo``.
+* Added a warning to ``Library - Version 0.1.3``
+
 Library - Version: 0.1.3 (10/03/2023)
 -------------------------------------
 * Changed the name of ``utility`` section to ``tools`` to match with the name that can be found on the documentation.
 * Changed the name of ``complex`` section to ``functions`` to match with the name that can be found on the documentation.
+
+.. warning::
+    If you update from a previous version, you have to change the name of the functions written above.
+
 
 Documentation - Version: 0.1.2 (10/03/2023)
 -------------------------------------------
