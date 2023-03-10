@@ -132,3 +132,4 @@ setup.py
 MANIFEST.in
 upload.py
 .vscode/
+.vscode/settings.json
