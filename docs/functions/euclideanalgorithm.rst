@@ -18,3 +18,6 @@ This function, from two numbers given in input, calculates their MCD, and return
                 a, b, remainder = b, r, r # remainder = r needs to be kept, because if r = 0, then it will be stored back.
             else:
                 return remainder
+
+Note: ``isNumber`` function checks if the input entered is a number.
+``isNumber`` can be found in Tools functions section.

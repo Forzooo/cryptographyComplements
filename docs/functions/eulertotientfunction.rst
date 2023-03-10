@@ -22,4 +22,5 @@ This function takes an integer input and calculates the Euler Totient function, 
             result -= result // number
         return result
 
-Note: The function depends on the `isNumber()` function, which is not provided here.
+Note: ``isNumber`` function checks if the input entered is a number.
+``isNumber`` can be found in Tools functions section.
