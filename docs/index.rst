@@ -9,3 +9,5 @@ Cryptography Complements Documentation
    functions/functions
    cyphers/cyphers
    tools/tools
+   general/planned
+   general/credits

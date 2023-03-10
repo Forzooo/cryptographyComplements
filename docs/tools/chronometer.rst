@@ -27,5 +27,5 @@ and can be stopped, with the time occured, printed in the console, using:
         print(f"Execution time: {int(hours):0>2}:{int(minutes):0>2}:{seconds:05.3f}")
 
 Note: The values printed out are automatically converted in a more readable size. 
-But if you want to see all the time occured in the ``stopChronometer``function, change the following line of code: 
+But if you want to see all the time occured in the ``stopChronometer`` function, change the following line of code: 
 ``print(f"Execution time: {int(hours):0>2}:{int(minutes):0>2}:{seconds:05.3f}")`` to: ``print(f"Execution time: {elapsed})``

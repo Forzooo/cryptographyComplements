@@ -9,3 +9,5 @@ Follow these steps, below, to see how you can use this library:
 2. Go to `cryptographyComplements GitHub repository <https://github.com/Forzooo/cryptographyComplements>`_ and download the latest version.
 
 3. Compile the library using ``setup.py`` and install it.
+
+**Note:** is planned the release of cryptographyComplements on PyPi soon, so if you don't know how to compile yourself, you need to wait.
