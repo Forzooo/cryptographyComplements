@@ -6,7 +6,7 @@ Planned Updates
 Here you can find all the updates planned to do.
 
 
-Library, release of version 0.2:
+Library, release of version 0.2
 --------------------------------
 
 - ☑ Euclidean Algorithm
@@ -17,7 +17,7 @@ Library, release of version 0.2:
 - ☐ Complete code revision
 - ☐ Bug fixes
 
-Documentation:
+Documentation
 --------------
 
 - ☑ Complete first version
