@@ -1,3 +1,3 @@
-from cryptographyComplements.complex import *
-from cryptographyComplements.utility import *
+from cryptographyComplements.functions import *
+from cryptographyComplements.tools import *
 from cryptographyComplements.cyphers import *

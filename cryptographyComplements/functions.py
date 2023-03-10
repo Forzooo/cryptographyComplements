@@ -1,4 +1,4 @@
-from cryptographyComplements.utility import isNumber # required, to check inputs entered by the user
+from cryptographyComplements.tools import isNumber # required, to check inputs entered by the user
 
 def EulerTotientFunction(number: int):
     "Calculate, from a given number, the Euler Totient function."
