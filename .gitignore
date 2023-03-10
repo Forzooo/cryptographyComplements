@@ -133,3 +133,6 @@ MANIFEST.in
 upload.py
 .vscode/
 .vscode/settings.json
+docs/conf.py
+docs/make.bat
+docs/Makefile
