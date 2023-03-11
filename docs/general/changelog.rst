@@ -9,7 +9,8 @@ Library- Version 0.1.4 (11/03/2023)
 -----------------------------------
 * Changed the name of ``functions`` section to ``mathFunctions`` to match with the name that can be found on the documentation.
 * Fixed error where the python files: ``utility``, ``complex`` where still available when they have changed to ``tools``, ``mathFunctions``
-
+.. warning::
+    If you update from a previous version, you have to change the name of the functions written above.
 
 Documentation - Version 0.1.3 (11/03/2023)
 ------------------------------------------
