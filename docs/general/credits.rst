@@ -3,7 +3,7 @@ Credits
 
 Library Contributors
 --------------------
-- Forzo
+- Forzo (Developer, Debugger)
 
 Documentation Contributors
 --------------------------

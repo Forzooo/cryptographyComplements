@@ -6,7 +6,7 @@ Cryptography Complements Documentation
 
    general/introduction
    general/setup
-   functions/functions
+   mathFunctions/functions
    cyphers/cyphers
    tools/tools
    general/changelog
