@@ -5,6 +5,12 @@ All the versions, library and documentation, before 0.1.3 will be written later.
 The version of the library specifies to what version is updated the documentation on the version of the library.
 Also, it can happen that more than one release of the library can have the same version.
 
+Library- Version 0.1.4 (11/03/2023)
+-----------------------------------
+* Changed the name of ``functions`` section to ``mathFunctions`` to match with the name that can be found on the documentation.
+* Fixed error where the python files: ``utility``, ``complex`` where still available when they have changed to ``tools``, ``mathFunctions``
+
+
 Documentation - Version 0.1.3 (11/03/2023)
 ------------------------------------------
 * General improvements
