@@ -1,6 +1,4 @@
 # Configuration file for the Sphinx documentation builder.
-import furo
-
 project = 'cryptographyComplements'
 copyright = '2023, Forzo'
 author = 'Forzo'

@@ -1,10 +1,11 @@
 Credits
 =======
 
-Library Developers
--------------------
+Library Contributors
+--------------------
 - Forzo
 
-Documentation Writers
-----------------------
-- Forzo
+Documentation Contributors
+--------------------------
+- Forzo (Documentation Writer)
+- `pradyunsg <https://github.com/pradyunsg/furo>`_ (Theme provider)

@@ -8,6 +8,14 @@ Also, it can happen that more than one release of the library can have the same 
 
 Documentation - Version 0.1.3 (10/03/2023)
 ------------------------------------------
+* Fixed bug, where the theme hasn't changed. (`Issue #4 <https://github.com/Forzooo/cryptographyComplements/issues/4>`_ closed as resolved)
+* Changed ``Library Developers`` to ``Library Contributors`` 
+* Changed ``Documentation Writers`` to ``Documentation Contributors``
+* Added ``pradyunsg`` to ``Documentation Contributors``
+
+
+Documentation - Version 0.1.3 (10/03/2023)
+------------------------------------------
 * Changed the theme of documentation from ``Read The Docs`` to ``furo``.
 * Added a warning to ``Library - Version 0.1.3``
 
