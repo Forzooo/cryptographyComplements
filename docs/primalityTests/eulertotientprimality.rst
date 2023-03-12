@@ -55,22 +55,26 @@ If you want to replicate this, you can use this code:
 
 .. code-block:: python
 
-    import random
-    from cryptographyComplements.tools import isNumber, startChronometer, stopChronometer
     from cryptographyComplements.primalityTests import EulerTotientPrimalityTest
+    from cryptographyComplements.tools import stopwatch
+    import random
 
-    minN, maxN = 2**62, 2**63 # select the power of 2 that you prefer
 
-    stopwatchTotal = startChronometer()
+    minN, maxN = 2**62, 2**63 # select the powers of 2 that you prefer
+
+    stopwatchTotal = stopwatch.start()
+
 
     while True:
-        stopwatchNumber = startChronometer()
+        stopwatchNumber = stopwatch.start()
         n = random.randint(minN, maxN)
 
         if EulerTotientPrimalityTest(n):
+            print(f"Number: {n} verify took:")
+            stopwatch.stop(stopwatchNumber)
             break
 
-    print(f"Total execution time: {stopChronometer(stopwatchTotal)}")
-    print(f"Number: {n} verify took: {stopChronometer(stopwatchNumber)}")
+    print(f"Total execution time:")
+    stopwatch.stop(stopwatchTotal)
 
     # print((minN) < n < (maxN)) # Use this only if you want to be sure that the number has been generated between minN and maxN

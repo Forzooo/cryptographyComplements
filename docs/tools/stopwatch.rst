@@ -5,11 +5,11 @@ The stopwatch Tools function, allows the user to create many stopwatch as needed
 
 The function can be called with associating a variable to the function:
 
-``stopwatch1 = stopwatch.start()``
+``variable = stopwatch.start()``
 
 and can be stopped, with the time occured, printed in the console, using:
 
-``stopwatch.stop(stopwatch1)``
+``stopwatch.stop(variable)``
 
 .. code-block:: python
 

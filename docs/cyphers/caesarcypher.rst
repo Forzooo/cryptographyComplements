@@ -1,7 +1,7 @@
 Caesar Cypher
 =============
 
-This cypher uses the Caesar Cypher encryption. The number fot the sequence is randomly selected, but if you prefer you can set it to 3 to match with the real Caesar one.
+This cypher uses the Caesar Cypher encryption. The number for the sequence is randomly selected, but if you prefer you can set it to 3 to match with the real Caesar one.
 
 .. code-block:: python
 

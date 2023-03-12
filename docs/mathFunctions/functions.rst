@@ -1,12 +1,12 @@
 Math Functions
 ==============
 If you want to call one of the math functions below, you can type:
-.. codeblock:: python 
+.. code-block:: python 
    import cryptographyComplements.mathFunctions
 
 or:
-.. codeblock:: python
-   from cryptographyComplements.mathFunctions import ...
+.. code-block:: python
+   from cryptographyComplements.mathFunctions import name_of_the_function
 
 
 .. toctree::

@@ -3,7 +3,7 @@ Extended Euclidean Algorithm
 
 This function, from two numbers given in input, calculates their MCD, and returns it as an integer.
 
-Extended Euclidean Algorithm is faster than the Euclidean Algorithm. It uses the equation: au + bv = gcd(a,b).
+Extended Euclidean Algorithm is faster than the Euclidean Algorithm.
 
 .. code-block:: python
 

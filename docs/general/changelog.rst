@@ -3,13 +3,29 @@ Changelog
 The version of the documentation specifies to what version is updated the documentation on the version of the library.
 Also, it can happen that more than one release of the library can have the same version.
 
-Library - Version 0.1.7 (12/03/2023)
+Documentation - Version 0.1.7 (12/03/2023)
+------------------------------------------
+* Fixed error where two documentation versions where were written ``Library``
+* Improvements to ``Introduction`` page
+* Improvements to ``Setup`` page
+* Fixed error in ``Math Functions`` page
+* Improvements to ``Math Functions`` page
+* Improvements to ``Euler Totient Function`` page
+* Improvements to ``Extended Euclidean Algorithm`` page
+* Modified the code to generate random numbers, and verify if it's a prime, to match with library version 0.1.7. The code is available in ``Euler Totient Primality Test`` page.
+* Fixed error in ``Caesar Cypher`` page
+* Fixed error in ``isNumber`` page
+* Fixed error in ``isOdd`` page
+* Fixed error in ``isEven`` page
+* Improvements to ``stopwatch`` page
+* Improvements to ``Planned Updates`` page
+
+Documentation - Version 0.1.7 (12/03/2023)
 ------------------------------------
 * Removed a phrase in ``changelog``
 * Corrected a error in ``changelog``
 
-
-Library - Version 0.1.7 (12/03/2023)
+Documentation - Version 0.1.7 (12/03/2023)
 ------------------------------------
 * Completed the write of library versions previous of version 0.1.3
 

@@ -1,7 +1,9 @@
 Euler Totient Function
 ======================
 
-This function takes an integer input and calculates the Euler Totient function, returning the number of relatively prime numbers to the input.
+This function takes an integer in input and calculates the Euler Totient function.
+It returns the number of relatively prime numbers to the input.
+
 
 .. code-block:: python
 

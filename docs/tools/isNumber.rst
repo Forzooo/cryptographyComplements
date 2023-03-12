@@ -1,9 +1,7 @@
 isNumber
 ========
 
-"isNumber" is a Tool function, that from one or more inputs, checks if them are numbers, and it returns to the user a dictionary with boolean values associated with the respective value.
-
-Python function code:
+"isNumber" is a Tool function, that from one or more inputs, checks if them are numbers, and it returns to the user a boolean value.
 
 .. code-block:: python
 

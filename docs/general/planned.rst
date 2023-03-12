@@ -5,6 +5,8 @@ Planned Updates
 
 Here you can find all the updates planned to do.
 
+But it's possible that updates with other functions could be published.
+
 - ☑ Release of the library on PyPi!
 
 Library, release of version 0.2
@@ -22,5 +24,5 @@ Documentation
 --------------
 
 - ☑ Complete first version
-- ☐ Documentation revision, especially for errors and grammatical errors
+- ☑ Documentation revision, especially for errors and grammatical errors
 - ☐ Update documentation with the changes of v0.2 (Only when v0.2 is officially released on GitHub)

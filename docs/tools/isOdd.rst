@@ -1,9 +1,7 @@
 isOdd
 =====
 
-"isOdd" is a Tool function, that from one or more numbers entered in input, checks if the numbers entered are odds, and it returns to the user a dictionary with boolean values associated with the respective value.
-
-Python function code:
+"isOdd" is a Tool function, that from one or more numbers entered in input, checks if the numbers entered are odds, and it returns to the user a boolean value.
 
 .. code-block:: python
 
