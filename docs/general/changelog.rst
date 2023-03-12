@@ -5,6 +5,16 @@ All the versions of library and documentation before 0.1.3 will be written in a 
 The version of the library specifies to what version is updated the documentation on the version of the library.
 Also, it can happen that more than one release of the library can have the same version.
 
+Library - Version 0.1.7 (12/03/2023)
+------------------------------------
+* Removed all the useless prints statements of the ``bool tools`` (isOdd, ...), you can verify from the return (True or False), but they will no longer be displayed
+* Removed the print statements from ``Euler Totient Primality Test``, you can verify from the return (True or False), but they will no longer be displayed
+* Changed the syntax of ``chronometer`` function in ``tools``
+* Improvements to the description of ``stopwatch.start`` function
+
+.. warning::
+    If you update from a previous version, you have to change the name of the stopwatch functions
+
 Documentation - Version 0.1.5 (12/03/2023)
 ------------------------------------------
 * Improvements to ``changelog`` description

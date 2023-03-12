@@ -12,7 +12,6 @@ def isOdd(*args):
             check[arg] = False
 
     if False in check.values():
-        print(f"Cryptography Complements: One or more numbers, are not odds: {check}")
         return False
 
     return True
@@ -31,7 +30,6 @@ def isEven(*args):
             check[arg] = False
 
     if False in check.values():
-        print(f"Cryptography Complements: One or more numbers, are not evens: {check}")
         return False
     
     return True
@@ -52,25 +50,26 @@ def isNumber(*args):
             check[arg] = True
 
         except ValueError as e:
-            print(f"Cryptography Complements: {e}")
             check[arg] = False
         
     if False in check.values():
-        print(f"Cryptography Complements: One or more input, are not numbers: {check}")
         return False
 
     return True
 
 
-def startChronometer():
-    "Start a chronometer. \nNote: The chronometer needs to be achieved into a variable."
-    import time
-    return time.time()
+class stopwatch:
+    "Create as many stopwatch as you need."
+    def start():
+        "Start a stopwatch. \nNote: The chronometer needs to be saved into a variable."
+        import time
+        return time.time()
 
-def stopChronometer(startTimer):
-    "Stop a given chronometer, and prints out how much it took."
-    import time
-    elapsed = time.time() - startTimer
-    hours, rem = divmod(elapsed, 3600)
-    minutes, seconds = divmod(rem, 60)
-    print(f"Execution time: {int(hours):0>2}:{int(minutes):0>2}:{seconds:05.3f}")
+    def stop(startTimer):
+        "Stop a given chronometer, and prints out how much it took."
+        import time
+        elapsed = time.time() - startTimer
+        hours, rem = divmod(elapsed, 3600)
+        minutes, seconds = divmod(rem, 60)
+        print(f"Execution time: {int(hours):0>2}:{int(minutes):0>2}:{seconds:05.3f}")
+        return elapsed
