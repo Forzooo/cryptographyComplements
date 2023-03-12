@@ -7,6 +7,7 @@ Cryptography Complements Documentation
    general/introduction
    general/setup
    mathFunctions/functions
+   primalityTests/primalitytests
    cyphers/cyphers
    tools/tools
    general/changelog
