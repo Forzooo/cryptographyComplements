@@ -5,6 +5,11 @@ Also, it can happen that more than one release of the library can have the same 
 
 Documentation - Version 0.1.7 (12/03/2023)
 ------------------------------------------
+* Created page: ``What's in development?``
+* Fixed error in ``changelog`` page
+
+Documentation - Version 0.1.7 (12/03/2023)
+------------------------------------------
 * Fixed error where two documentation versions where were written ``Library``
 * Improvements to ``Introduction`` page
 * Improvements to ``Setup`` page
@@ -21,12 +26,12 @@ Documentation - Version 0.1.7 (12/03/2023)
 * Improvements to ``Planned Updates`` page
 
 Documentation - Version 0.1.7 (12/03/2023)
-------------------------------------
+------------------------------------------
 * Removed a phrase in ``changelog``
 * Corrected a error in ``changelog``
 
 Documentation - Version 0.1.7 (12/03/2023)
-------------------------------------
+------------------------------------------
 * Completed the write of library versions previous of version 0.1.3
 
 Documentation - Version 0.1.7 (12/03/2023)

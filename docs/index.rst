@@ -10,6 +10,7 @@ Cryptography Complements Documentation
    primalityTests/primalitytests
    cyphers/cyphers
    tools/tools
+   general/development
    general/changelog
    general/planned
    general/credits
