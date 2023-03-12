@@ -1,10 +1,20 @@
 Changelog
 =========
-
-All the versions, library and documentation, before 0.1.3 will be written later.
+All the versions of library and documentation before 0.1.3 will be written in a second moment.
 
 The version of the library specifies to what version is updated the documentation on the version of the library.
 Also, it can happen that more than one release of the library can have the same version.
+
+Documentation - Version 0.1.5 (12/03/2023)
+------------------------------------------
+* Improvements to ``changelog`` description
+
+Library - Version 0.1.6 (12/03/2023)
+------------------------------------
+* Fixed bug, where from ``primalityTests`` you could import ``Euler Totient Function`` generating a ``Import Error``
+* Improvements to ``Euler Totient Primality Test``, this feature is for big numbers, that now are being skipped if they can't be prime numbers, that avoids the time that occurs to calculate phi
+* Fixed bug, where in ``tools``: ``isEven`` was returning ``True`` even if the numbers entered were odds
+* Fixed bug, where in ``tools``: ``isOdd`` was returning ``True`` even if the numbers entered were evens
 
 Documentation - Version 0.1.5 (12/03/2023)
 ------------------------------------------
