@@ -5,6 +5,10 @@ All the versions of library and documentation before 0.1.3 will be written in a 
 The version of the library specifies to what version is updated the documentation on the version of the library.
 Also, it can happen that more than one release of the library can have the same version.
 
+Library - Version 0.1.7 (12/03/2023)
+------------------------------------
+* Completed the write of library versions previous of version 0.1.3
+
 Documentation - Version 0.1.7 (12/03/2023)
 ------------------------------------------
 * Updated the ``stopwatch`` section in ``tools`` to match with the changes of library version 0.1.7
@@ -88,3 +92,66 @@ Documentation - Version 0.1.2 (10/03/2023)
 -------------------------------------------
 * Writing of the documentation has been completed, and it matches with the latest version available of the library.
 * Set the theme of the documentation to ``Read The Docs theme`` from ``alabaster``.
+
+Library - Version 0.1.2 (02/03/2023)
+------------------------------------
+* Added to ``complex`` section: ``Extended Euclidean Algorithm``
+* Defined to int the parameters of ``Euler Totient Function``, ``Euclidean Algorithm``, ``Extended Euclidean Algorithm``, ``Base Discrete Logarithm``
+
+Library - Version 0.1.1 (02/03/2023)
+------------------------------------
+* Added to ``complex`` section: ``Euclidean Algorithm``
+
+Library - Version 0.10 (28/02/2023)
+-----------------------------------
+* Changed ``Discrete Logarithm`` to ``Base Discrete Logarithm``
+* Minor improvements to ``Base Discrete Logarithm``
+
+Library - Version 0.0.10 (27/02/2023)
+-------------------------------------
+* Improvements to cypher writing into a text file
+* Improvements to syntax of ``isOdd`` and ``isEven``
+* Improvements to syntax of ``isNumber``
+
+Library - Version 0.0.9 (27/02/2023)
+------------------------------------
+* Modifies to print statement of ``Discrete Logarithm``
+* Created ``startChronometer`` and ``stopChronometer`` functions and added to ``utility``
+
+Library - Version 0.0.8 (26/02/2023)
+------------------------------------
+* Modified ``congruence`` and ``modulo`` to constants in ``Discrete Logarithm``
+
+Library - Version 0.0.7 (26/02/2023)
+------------------------------------
+* Created ``Caesar Cypher`` and added to ``cyphers``
+
+Library - Version 0.0.6 (26/02/2023)
+------------------------------------
+* Created ``Random Cypher`` and added to ``cyphers``
+* Created ``write cypher`` function and added to ``cyphers``
+
+Library - Version 0.0.5 (26/02/2023)
+------------------------------------
+* Set ``result = number``, of ``Euler Totient`` function, to ``result = int(number)``
+
+Library - Version 0.0.4 (26/02/2023)
+------------------------------------
+* Improvements to ``Discrete Logarithm`` description
+* Created ``isNumber`` function and added to ``utility``
+
+Library - Version 0.0.3 (26/02/2023)
+------------------------------------
+* Created ``Discrete Logarithm`` function and added to ``complex``
+
+Library - Version 0.0.2 (26/02/2023)
+------------------------------------
+* Changed ``number validation`` to ``utility``
+* Created ``complex``
+* Created ``Euler Totient Function`` and added to ``complex``
+* Added description to ``isOdd`` and ``isEven`` functions
+
+Library - Version 0.0.1 (25/02/2023)
+------------------------------------
+* Created ``number validation``
+* Created ``isOdd`` and ``isEven`` functions and added to ``numberValidation``
