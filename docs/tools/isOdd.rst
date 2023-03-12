@@ -20,8 +20,7 @@ Python function code:
             else:
                 check[arg] = False
 
-        if False in check:
-            print(f"Cryptography Complements: One or more numbers, are not odds: {check}")
+        if False in check.values():
             return False
 
         return True

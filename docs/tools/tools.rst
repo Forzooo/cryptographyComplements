@@ -10,4 +10,4 @@ Below you can find all the tools available right now. Tools, have been created f
    isNumber
    isOdd
    isEven
-   chronometer
+   stopwatch

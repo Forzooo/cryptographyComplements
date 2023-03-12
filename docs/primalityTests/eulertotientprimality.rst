@@ -5,22 +5,29 @@ And if the equality is true than the number entered in input is a prime number, 
 
 .. code-block:: python
 
-    from cryptographyComplements.mathFunctions import EulerTotientFunction
-    from cryptographyComplements.tools import isNumber
     def EulerTotientPrimalityTest(n: int):
         "Using the equation: p - 1 = phi(p), you can verify if a number is prime. \nThis primality test is 100% valid but numbers greater than 2^60 requires to much time, and computational power, to be calculated using this primality test."
 
-        if n < 0 and not isNumber(n): # verifying if the input is a number and belongs to N
-            return None
+        from cryptographyComplements.mathFunctions import EulerTotientFunction
+
+        if not isNumber(n): # verifying if the input is a number 
+            return False
+
+        elif int(n) < 0: # verifying if the input belongs to N
+            return False
+
+        n = int(n)
+        if n == 5 or n==2: # needs to be put because in the if condition below it would be set to false
+            return True
         
+        elif isEven(n) or str(n).endswith("5"): # skip the nums that are not prime
+            return False
 
         phi = EulerTotientFunction(n)
 
         if (n - 1) == phi:
-            print("Cryptography Complements: The number entered is prime")
             return True
         
-        print("Cryptography Complements: The number entered is not a prime")
         return False
 
 The following table reports the number used to see the maximum large number that can be verified using this primality test.
