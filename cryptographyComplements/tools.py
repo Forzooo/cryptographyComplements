@@ -11,7 +11,7 @@ def isOdd(*args):
         else:
             check[arg] = False
 
-    if False in check:
+    if False in check.values():
         print(f"Cryptography Complements: One or more numbers, are not odds: {check}")
         return False
 
@@ -30,7 +30,7 @@ def isEven(*args):
         else:
             check[arg] = False
 
-    if False in check:
+    if False in check.values():
         print(f"Cryptography Complements: One or more numbers, are not evens: {check}")
         return False
     
